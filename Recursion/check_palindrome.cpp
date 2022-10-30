@@ -12,7 +12,7 @@ bool checkPalindrome(string input)
         return true;
     }
 
-    else if(input[0] ==input[input.length()-1] )
+    else if(input[0] == input[input.length()-1] )
     {
         return checkPalindrome( input.substr(1, input.length()-2));
     }
