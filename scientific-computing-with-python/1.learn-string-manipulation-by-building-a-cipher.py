@@ -31,3 +31,29 @@ print(type(shift))
 #11
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 print(alphabet)
+
+#12
+alphabet.find(text[0])
+
+#13
+### Commented For Future Executions
+# index = alphabet.find(text[0])
+# print(index)
+
+#14
+print(text.lower())
+
+#15
+index = alphabet.find(text[0].lower())
+print(index)
+
+#16
+shifted = alphabet[index+shift]
+
+#17
+print(shifted)
+
+#18
+for i in text:
+    print(i)
+    
