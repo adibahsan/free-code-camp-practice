@@ -15,3 +15,19 @@ print(text[-1])
 
 #6
 print(len(text))
+
+#7
+print(type(text))
+
+#8
+shift = 3
+
+#9
+print(shift)
+
+#10
+print(type(shift))
+
+#11
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+print(alphabet)
