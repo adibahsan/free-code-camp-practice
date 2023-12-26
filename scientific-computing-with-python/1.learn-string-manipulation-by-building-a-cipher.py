@@ -57,3 +57,40 @@ print(shifted)
 for i in text:
     print(i)
     
+#19-20
+# for i in text:
+# print(i)
+
+#21
+for i in text:
+    print(i)
+    
+#22
+for char in text:
+    print(char)
+
+#23 
+for char in text:
+    index =  alphabet.find(char)
+    print(char)
+
+#24 
+for char in text:
+    index =  alphabet.find(char)
+    print(char,index)
+
+#25-26 
+for char in text.lower():
+    index =  alphabet.find(char)
+    print(char,index)
+    new_index = index + shift
+    
+#28-29
+# text= 'Albatross'
+
+#30
+for char in text.lower():
+    index =  alphabet.find(char)
+    print(char,index)
+    new_index = index + shift
+    new_char = alphabet[new_index]
